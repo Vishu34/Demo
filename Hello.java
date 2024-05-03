@@ -15,7 +15,7 @@ class Hello {
       float a =23.34f;
       float b=234.2342f;
       double c=345.3434534;
-
+      double high=345.3434534;
 
        
 DecimalFormat df = new DecimalFormat("#.##");
@@ -28,7 +28,6 @@ System.out.printf("%.2f", c);
 
 
 // find the second highest value in array of an integer
-
 
 
   Scanner sc = new Scanner(System.in);
@@ -60,8 +59,6 @@ arr[i]=sc.nextInt();
   System.out.println(" the second highest number is :" + secondhighest);
 
   sc.close();
-
-
 
 //   wap to swap variable without using 3rd variable using 
 //   arithmetic operation and without using arithmetic operation
