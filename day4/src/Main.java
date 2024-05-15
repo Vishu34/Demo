@@ -5,13 +5,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter the unit no. ");
-       int unit = sc.nextInt();
-        System.out.println("enter the unit no. is "+ unit);
-        Bill bill = new Bill();
-        int value =bill.elctricBill(unit);
-        System.out.println("your electircity bill is "+ value);
+        String name="987-098yt";
+        String s="";
+        for(int i=name.length()-1; i<0; i--){
+           s+= name.charAt(i);
+        }
+        System.out.println(s);
     }
 
 
