@@ -14,16 +14,19 @@ public class Student implements  Trial , Comparable<Student>{
         super();
     }
 
-
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 
     @Override
     public void display() {
-        System.out.println("display result of the student");
+
     }
 
     @Override
     public void enjoying() {
-        System.out.println("this studnet is enjoying ");
+
     }
 
     @Override

@@ -1,5 +1,8 @@
 package stringnumberquery;
 
+import java.io.BufferedInputStream;
+import java.util.Scanner;
+
 public class Main {
 
 
@@ -40,6 +43,17 @@ public class Main {
        }else {
            System.out.println(palllin+"is not  the palindrom number ");
        }
+
+          Scanner sc = new Scanner(System.in);
+        System.out.println("enter the year ");
+        int year = sc.nextInt();
+
+        if(Allquestion.leapYear(year)){
+            System.out.println(year + "is the leap year ");
+        }else{
+            System.out.println(year + "is not  the leap year ");
+        }
+
 
 
     }
